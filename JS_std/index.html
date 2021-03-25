@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="array.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h2 id="hello">안녕하세요</h2>
+    <div class="alert-box" id="alert">Alert 박스</div>
+    <button id="open" onclick="document.getElementById('alert').style.display = 'block';
+    document.getElementById('open').style.display='none';
+    document.getElementById('close').style.display='block';">버튼</button>
 
-    <script>
-        document.getElementById('hello').innerHTML = "안녕";
-        document.getElementById('hello').style.fontSize = "50px";
-        //웹문서의 아이디요소를 가져옴 'hello'인, 스타일 폰트사이즈 = 값;
-    </script>
+    <button id="close" onclick="document.getElementById('alert').style.display = 'none';
+    document.getElementById('open').style.display = 'block';
+    document.getElementById('close').style.display='none';
+    ">닫기</button>
+
 </body>
 </html>
