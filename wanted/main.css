@@ -125,8 +125,9 @@ table {
 /* 헤더부분 */
 
 #header {
-  background-color: antiquewhite;
   font-size: 14px;
+  border-bottom: solid 0.5px rgb(225, 225, 225);
+  position: relative;
 }
 /* 로고 */
 
@@ -138,18 +139,24 @@ table {
   height: 50px;
   margin: 0 auto;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 #Wanted {
   font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0;
 }
 /* 목록 */
 
 .list6 {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  align-items: center;
   flex-direction: row;
 }
+#list ul {
+  height: 50px;
+}
+
 .list6 a {
   padding: 15px;
   text-decoration: none;
@@ -159,18 +166,47 @@ table {
 
 #three {
   display: flex;
+  align-items: center;
+  padding: 10px 0;
 }
 #three img,
-a {
-  margin-left: 15px;
-  margin-right: 15px;
+#three a {
+  padding: 0 10px;
   text-decoration: none;
   color: black;
 }
-#login {
-  border-left: solid 1px dimgrey;
+#eheqhrl img {
+  padding-right: 10px;
+  border-right: solid 0.5px dimgrey;
 }
+#login a {
+  font-weight: bold;
+}
+
 #radius {
-  border: solid black;
-  border-radius: 20px;
+  border: solid gray 0.5px;
+  font-size: 13px;
+  border-radius: 100px;
+
+  padding: 5px 0;
+}
+
+/* 콘텐츠 */
+#contants {
+  height: 550px;
+  background-size: cover;
+  background-image: url("main_kr_pc.jpeg");
+  background-position: -65px;
+}
+#content {
+  display: block;
+  width: 940px;
+  height: 226px;
+  justify-content: center;
+  align-items: center;
+}
+#content h1 {
+  font-size: 48px;
+  line-height: 62px;
+  margin-bottom: 20px;
 }
