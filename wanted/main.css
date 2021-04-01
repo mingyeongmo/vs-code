@@ -184,29 +184,169 @@ table {
 }
 
 #radius {
-  border: solid gray 0.5px;
+  border: solid rgb(206, 202, 202) 0.5px;
   font-size: 13px;
   border-radius: 100px;
 
   padding: 5px 0;
 }
+#radius a {
+  color: rgb(104, 102, 102);
+}
 
 /* 콘텐츠 */
-#contants {
+#main_content {
+  height: 100%;
+}
+/* 첫번째 배경 */
+#contents {
   height: 550px;
   background-size: cover;
   background-image: url("main_kr_pc.jpeg");
   background-position: -65px;
-}
-#content {
-  display: block;
-  width: 940px;
-  height: 226px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-#content h1 {
+#content1 {
+  width: 940px;
+  height: 266px;
+}
+#content1 h1 {
   font-size: 48px;
   line-height: 62px;
   margin-bottom: 20px;
+  font-weight: 600;
+}
+#content1 h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+#content1 button {
+  width: 230px;
+  height: 64px;
+  border-radius: 32px;
+  border: 0;
+  background-color: #3a68f9;
+  color: #fff;
+  font-size: 20px;
+}
+/* 두번째 배경 */
+#contents2,
+#content2 {
+  width: 1792px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content2 .img1 {
+  width: 530px;
+  height: 380px;
+
+  background-image: url("001.jpeg");
+  background-size: cover;
+}
+#content2 .naeyong1 {
+  width: 470px;
+  height: 380px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content2 h1 {
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#content2 h3 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+/* 세번째 배경 */
+#contents3,
+#content3 {
+  width: 1792px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content3 .img2 {
+  width: 530px;
+  height: 380px;
+
+  background-image: url("002.jpeg");
+  background-size: cover;
+}
+#content3 .naeyong2 {
+  width: 470px;
+  height: 380px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content3 h1 {
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#content3 h3 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+/* 네번째 배경 */
+
+#contents4,
+#content4 {
+  width: 1792px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content4 .img3 {
+  width: 530px;
+  height: 380px;
+
+  background-image: url("003.jpeg");
+  background-size: cover;
+}
+#content4 .naeyong3 {
+  width: 470px;
+  height: 380px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content4 h1 {
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#content4 h3 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
 }
